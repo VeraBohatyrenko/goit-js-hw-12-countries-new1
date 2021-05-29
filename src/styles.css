@@ -1,0 +1,70 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-image: url(./images/bg-pattern.png);
+}
+
+h1 {
+  font-family: 'Russo One', sans-serif;
+  font-size: 35px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.tag-list__item {
+  font-size: 20px;
+}
+
+.form-inline {
+  text-align: center;
+}
+.form_country {
+  display: flex;
+  justify-content: center;
+}
+
+.flag {
+  width: 300px;
+  height: 200px;
+}
+
+.text {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.form-control {
+  font-size: 28px;
+  line-height: 1.2;
+  text-align: center;
+  margin: 40px;
+  width: 538px;
+}
+
+.listCountry {
+  font-size: 24px;
+  font-weight: bold;
+  max-width: 500px;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.description-list {
+  font-family: 'Cormorant Infant', serif;
+  text-align: left;
+}
+
+.languages {
+  list-style: none;
+  padding-left: 0;
+}
